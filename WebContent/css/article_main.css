@@ -1,0 +1,80 @@
+        /*높이 100% , 스크롤바 없애기*/
+        body,html{height: 100%; overflow: hidden;}
+        .titleBox{margin-bottom: 5px;}
+        .back{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            right: 20px;
+        }
+        .back:hover{color: red;}
+        .genreListBox{ height: 88%;}
+        .genreList{margin-bottom: 30px;}
+        .genreList a{font-size: 18px;}
+        .newsRoom{
+            font-size: 55px;
+            font-weight: 700;
+            border-bottom: 1px solid #424242;
+        }
+        .articleContentBox{
+            /*background: red;*/
+            width: 750px;
+            height: 79%;
+            margin-left: 40px;
+            overflow-y: scroll;
+            background: white;
+        }
+        .articleList{list-style: none;}
+        .articleList li{position: relative;}
+        .originalText{
+			display:inline-block;
+			position:absolute;
+            width: 30px;
+            height: 30px;
+            right: 10px;
+            top: 8px;
+            text-align: center;
+        }
+        .fa-google{color: black; font-size: 25px;}
+        .articleList .list-group-item{
+            color: black;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .articleListBox{width:500px ; height: 88%;overflow-y: scroll;}
+
+        .articleListTitle,.articleContentTitle{margin-left: 30px;}
+
+        .mainArticle{list-style: none;border: 1px solid #424242;}
+        /*주요 뉴스 1위만 빨간색으로 강조*/
+        .mainArticle li:nth-child(1) a{ color: red;font-weight: 800;}
+        
+        /*텍스트 오버시 생략기호 */
+        .mainArticle a{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .mainArticle a{
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        .reloadMainArticle{
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            color: black;
+        }
+        .reloadMainArticle:hover{color:red;}
+
+		#reloadMsg{
+			color: #87bdd8;
+			font-size: 10px;
+		}
+		#reloadMsg strong{font-size:12px;}
+		
+		<!-- 기사 관련 css -->
+        .articleContentBox a{color: black;}
+        .articleContentBox img {display: block; margin: auto;}
+        .txt_caption{color: silver;font-style: italic;}

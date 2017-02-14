@@ -1,0 +1,41 @@
+
+
+.title{
+    font-size: 60px;
+}
+
+.title_sub{
+    font-size: 30px;
+}
+
+.mainBox{
+   height: 100%;
+   width: 100%;
+   margin-top: 20%;
+   border-bottom: 1px solid #424242;
+} 
+.mainBox2{
+    text-align: center;
+    height: 150px;
+    line-height: 120px;
+}
+
+/* 사이트 선택 메뉴*/
+.btn-group{
+    /*background: red;*/
+    width: 500px;
+    margin: 50px 0 0; 
+}
+.btn-group a{
+    font-size: 20px;
+    width: 100px;
+    height: 80px;
+    line-height: 70px;
+    margin-right: 5px;
+    border: none;
+}
+
+.site{
+     height: 60px;
+}
+    
